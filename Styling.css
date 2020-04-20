@@ -1,0 +1,97 @@
+body{
+    background-color: #232323;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body h1 {
+    text-align: center;
+}
+
+button{
+    text-transform: uppercase;
+}
+
+.game-mode {
+    background: white;
+    margin: 0;
+}
+
+.buttons {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.difficulty{
+    float: right; 
+}
+
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float:left;
+    margin: 1.66%;
+    border-radius: 30px;
+    transition: background-color 0.5s;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#message {
+    width: 40%;
+    color: steelblue;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: steelblue;
+    margin: 0;
+    padding: 1rem;
+    transition: background-color 0.5s;
+    font-weight: 400
+}
+
+.wrong {
+    background-color: #232323;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: steelblue;
+    transition: background-color 0.3s;
+    font-weight: 700;
+    font-size:  20px;
+    outline: none;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+span {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#rgb {
+    font-size: 3rem;
+    font-weight: 700;
+    display: block;
+}
+
+.active {
+    background-color: steelblue;
+    color: white;
+}
